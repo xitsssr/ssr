@@ -1,0 +1,48 @@
+/* Minimal Dot-Matrix Style */
+body {
+  background-color: #fff;
+  color: #000;
+  font-family: 'VT323', monospace;
+  font-size: 28px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+main {
+  max-width: 600px;
+  padding: 20px;
+}
+
+blockquote {
+  margin: 0;
+  font-style: normal;
+  line-height: 1.4;
+  position: relative;
+}
+
+footer {
+  margin-top: 20px;
+  font-size: 20px;
+  color: #555;
+}
+
+/* Red dot accent on i/j */
+span.dot {
+  color: red;
+}
+
+
+.doto-<uniquifier> {
+  font-family: "Doto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "ROND" 0;
+}
